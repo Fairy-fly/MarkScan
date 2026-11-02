@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-02",
+  "source_version": "1.1.0",
+  "source_matches_product_1_1_before_privacy_cleanup": true,
+  "core_and_default_answers_byte_unchanged": true,
+  "changes": [
+    "Remove personal identity from About text",
+    "Portable build script parameters",
+    "README, ignore rules and reviewed evidence"
+  ],
+  "windows_release_rebuild": "passed",
+  "ctest": "1/1 passed",
+  "core_checks": "14/14",
+  "synthetic_question_matches": "80/80",
+  "windows_ui_offscreen_smoke": {
+    "passed": true,
+    "async_import": true,
+    "filter": true,
+    "preview_zoom": true,
+    "invalid_file": true
+  },
+  "android_build_script_syntax": "passed; parameterized script not end-to-end rebuilt",
+  "android_device_retested": false,
+  "real_paper_photo_accuracy_verified": false,
+  "screenshots": "Historical 1.1 actual UI, synthetic cards with empty identity fields",
+  "privacy_review": "Known personal identifiers, workstation paths and common secret patterns absent from tracked text; two screenshots visually reviewed",
+  "excluded": [
+    "build outputs",
+    "SDKs and Gradle caches",
+    "course reports and report generators",
+    "submission archives",
+    "recordings",
+    "old binaries containing personal identity",
+    "raw workstation and device logs"
+  ],
+  "release_created": false,
+  "release_reason": "Existing binaries contain personal identity; sanitized Android binary has not been rebuilt and device-tested",
+  "core_sha256": {
+    "core/Recognizer.cpp": "2cd1cb658d0370fb7855f91acf1c38ac3915d8f39fb7d4c79d2facdeb72015df",
+    "core/Recognizer.h": "589adfaab329e1ac8022bc4a82d2bebad299882c8835d5bd56b1e3784ff83b9f",
+    "config/answers.json": "626a7b5871de6b8be03f6ff49f416876d56a95b416c98dcc3aae0443580fbe9b"
+  }
+}

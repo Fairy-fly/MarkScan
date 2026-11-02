@@ -1,0 +1,6 @@
+{
+  "template": "MarkScan-v1",
+  "answers": ["A", "B", "C", "D", "A", "C", "B", "D", "C", "A"],
+  "points_per_question": 10,
+  "fill_threshold": 0.40
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "case": "all_correct",
+    "passed": true,
+    "status": "正确 10",
+    "score": "100 / 100 分，答对 10 题，共10题",
+    "expected_score": 100
+  },
+  {
+    "case": "partial_wrong",
+    "passed": true,
+    "status": "错误 3",
+    "score": "70 / 100 分，答对 7 题，共10题",
+    "expected_score": 70
+  },
+  {
+    "case": "unanswered",
+    "passed": true,
+    "status": "漏选 2",
+    "score": "80 / 100 分，答对 8 题，共10题",
+    "expected_score": 80
+  },
+  {
+    "case": "multiple",
+    "passed": true,
+    "status": "多选 1",
+    "score": "90 / 100 分，答对 9 题，共10题",
+    "expected_score": 90
+  },
+  {
+    "case": "no_card",
+    "passed": true,
+    "status": "未能识别这张答题卡",
+    "score": "",
+    "expected_score": null
+  },
+  {
+    "case": "perspective",
+    "passed": true,
+    "status": "正确 10",
+    "score": "100 / 100 分，答对 10 题，共10题",
+    "expected_score": 100
+  }
+]

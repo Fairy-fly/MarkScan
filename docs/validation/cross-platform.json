@@ -1,0 +1,12 @@
+{
+  "equal_fields": {
+    "score": true,
+    "maximum": true,
+    "questions": true,
+    "fill_threshold": true,
+    "template": true
+  },
+  "version": "1.1.0",
+  "android_score": 100,
+  "windows_score": 100
+}

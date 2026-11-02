@@ -1,0 +1,20 @@
+{
+  "version": "1.1.0",
+  "cross_platform_all_equal": true,
+  "installed_apk_equals_delivered": true,
+  "export_png_size": [
+    1240,
+    1754
+  ],
+  "exported_pixels_equal_saved_annotation": true,
+  "core_unchanged": true,
+  "windows_ui_passed": true,
+  "android_ui_passed": true,
+  "windows_executable_equals_build": true,
+  "unverified": [
+    "real_paper_photo_accuracy",
+    "android_two_finger_pinch",
+    "windows_native_dialog_mouse",
+    "windows_wheel_and_drag_actual_input"
+  ]
+}

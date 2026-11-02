@@ -1,0 +1,753 @@
+{
+  "async_import": true,
+  "cases": [
+    {
+      "actual": {
+        "application": "MarkScan",
+        "fill_threshold": 0.4,
+        "maximum": 100,
+        "questions": [
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 1,
+            "selected": "A",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 2,
+            "selected": "B",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 3,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0.7635960044395117
+            ],
+            "points": 10,
+            "question": 4,
+            "selected": "D",
+            "status": "correct"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 5,
+            "selected": "A",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 6,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 7,
+            "selected": "B",
+            "status": "correct"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0.7635960044395117
+            ],
+            "points": 10,
+            "question": 8,
+            "selected": "D",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 9,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 10,
+            "selected": "A",
+            "status": "correct"
+          }
+        ],
+        "score": 100,
+        "success": true,
+        "template": "MarkScan-v1",
+        "timestamp": "2026-10-25T06:42:31Z",
+        "version": "1.1.0"
+      },
+      "case": "all_correct",
+      "passed": true
+    },
+    {
+      "actual": {
+        "application": "MarkScan",
+        "fill_threshold": 0.4,
+        "maximum": 100,
+        "questions": [
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 1,
+            "selected": "A",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0.7635960044395117
+            ],
+            "points": 0,
+            "question": 2,
+            "selected": "D",
+            "status": "wrong"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 3,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0.7635960044395117
+            ],
+            "points": 10,
+            "question": 4,
+            "selected": "D",
+            "status": "correct"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 0,
+            "question": 5,
+            "selected": "B",
+            "status": "wrong"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 6,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 7,
+            "selected": "B",
+            "status": "correct"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0.7635960044395117
+            ],
+            "points": 10,
+            "question": 8,
+            "selected": "D",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 9,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 0,
+            "question": 10,
+            "selected": "C",
+            "status": "wrong"
+          }
+        ],
+        "score": 70,
+        "success": true,
+        "template": "MarkScan-v1",
+        "timestamp": "2026-10-25T06:42:31Z",
+        "version": "1.1.0"
+      },
+      "case": "partial_wrong",
+      "passed": true
+    },
+    {
+      "actual": {
+        "application": "MarkScan",
+        "fill_threshold": 0.4,
+        "maximum": 100,
+        "questions": [
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 1,
+            "selected": "A",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 2,
+            "selected": "B",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "points": 0,
+            "question": 3,
+            "selected": "",
+            "status": "unanswered"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0.7635960044395117
+            ],
+            "points": 10,
+            "question": 4,
+            "selected": "D",
+            "status": "correct"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 5,
+            "selected": "A",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 6,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 7,
+            "selected": "B",
+            "status": "correct"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0
+            ],
+            "points": 0,
+            "question": 8,
+            "selected": "",
+            "status": "unanswered"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 9,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 10,
+            "selected": "A",
+            "status": "correct"
+          }
+        ],
+        "score": 80,
+        "success": true,
+        "template": "MarkScan-v1",
+        "timestamp": "2026-10-25T06:42:31Z",
+        "version": "1.1.0"
+      },
+      "case": "unanswered",
+      "passed": true
+    },
+    {
+      "actual": {
+        "application": "MarkScan",
+        "fill_threshold": 0.4,
+        "maximum": 100,
+        "questions": [
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 1,
+            "selected": "A",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 2,
+            "selected": "B",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 3,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0.7635960044395117
+            ],
+            "points": 0,
+            "question": 4,
+            "selected": "BD",
+            "status": "multiple"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 5,
+            "selected": "A",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 6,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 7,
+            "selected": "B",
+            "status": "correct"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0.7635960044395117
+            ],
+            "points": 10,
+            "question": 8,
+            "selected": "D",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 9,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 10,
+            "selected": "A",
+            "status": "correct"
+          }
+        ],
+        "score": 90,
+        "success": true,
+        "template": "MarkScan-v1",
+        "timestamp": "2026-10-25T06:42:32Z",
+        "version": "1.1.0"
+      },
+      "case": "multiple",
+      "passed": true
+    },
+    {
+      "actual": {
+        "application": "MarkScan",
+        "fill_threshold": 0.4,
+        "maximum": 100,
+        "questions": [
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7680355160932297,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 1,
+            "selected": "A",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 2,
+            "selected": "B",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7669256381798002,
+              0
+            ],
+            "points": 10,
+            "question": 3,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0.7658157602663707
+            ],
+            "points": 10,
+            "question": 4,
+            "selected": "D",
+            "status": "correct"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 5,
+            "selected": "A",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 6,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "B",
+            "fill_ratios_ABCD": [
+              0,
+              0.7635960044395117,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 7,
+            "selected": "B",
+            "status": "correct"
+          },
+          {
+            "expected": "D",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0,
+              0.7635960044395117
+            ],
+            "points": 10,
+            "question": 8,
+            "selected": "D",
+            "status": "correct"
+          },
+          {
+            "expected": "C",
+            "fill_ratios_ABCD": [
+              0,
+              0,
+              0.7635960044395117,
+              0
+            ],
+            "points": 10,
+            "question": 9,
+            "selected": "C",
+            "status": "correct"
+          },
+          {
+            "expected": "A",
+            "fill_ratios_ABCD": [
+              0.7635960044395117,
+              0,
+              0,
+              0
+            ],
+            "points": 10,
+            "question": 10,
+            "selected": "A",
+            "status": "correct"
+          }
+        ],
+        "score": 100,
+        "success": true,
+        "template": "MarkScan-v1",
+        "timestamp": "2026-10-25T06:42:32Z",
+        "version": "1.1.0"
+      },
+      "case": "perspective",
+      "passed": true
+    },
+    {
+      "actual": {
+        "application": "MarkScan",
+        "error": "未检测到完整的 MarkScan 答题卡。\n\n请保留四角黑色标记，拍清整张卡，并使用本项目固定模板。",
+        "fill_threshold": 0.4,
+        "success": false,
+        "template": "MarkScan-v1",
+        "timestamp": "2026-10-25T06:42:32Z",
+        "version": "1.1.0"
+      },
+      "case": "no_card",
+      "passed": true
+    }
+  ],
+  "filter": true,
+  "invalid_file": true,
+  "passed": true,
+  "preview_zoom": true,
+  "version": "1.1.0"
+}

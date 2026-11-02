@@ -1,0 +1,218 @@
+{
+  "cases": [
+    {
+      "name": "all_correct",
+      "pass": true,
+      "located": true,
+      "score": 100,
+      "expected_score": 100,
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "A",
+        "C",
+        "B",
+        "D",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "name": "partial_wrong",
+      "pass": true,
+      "located": true,
+      "score": 70,
+      "expected_score": 70,
+      "answers": [
+        "A",
+        "D",
+        "C",
+        "D",
+        "B",
+        "C",
+        "B",
+        "D",
+        "C",
+        "C"
+      ]
+    },
+    {
+      "name": "unanswered",
+      "pass": true,
+      "located": true,
+      "score": 80,
+      "expected_score": 80,
+      "answers": [
+        "A",
+        "B",
+        "",
+        "D",
+        "A",
+        "C",
+        "B",
+        "",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "name": "multiple",
+      "pass": true,
+      "located": true,
+      "score": 90,
+      "expected_score": 90,
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "BD",
+        "A",
+        "C",
+        "B",
+        "D",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "name": "perspective",
+      "pass": true,
+      "located": true,
+      "score": 100,
+      "expected_score": 100,
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "A",
+        "C",
+        "B",
+        "D",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "name": "rotated_90",
+      "pass": true,
+      "located": true,
+      "score": 100,
+      "expected_score": 100,
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "A",
+        "C",
+        "B",
+        "D",
+        "C",
+        "A"
+      ]
+    },
+    {
+      "name": "blank_sheet",
+      "pass": true,
+      "located": true,
+      "score": 0,
+      "expected_score": 0,
+      "answers": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "no_card",
+      "pass": true,
+      "located": false,
+      "score": 0,
+      "expected_score": 0,
+      "answers": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "missing_marker",
+      "pass": true,
+      "located": false,
+      "score": 0,
+      "expected_score": 0,
+      "answers": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "four_squares_only",
+      "pass": true,
+      "located": false,
+      "score": 0,
+      "expected_score": 0,
+      "answers": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "name": "shadow_perspective",
+      "pass": true,
+      "located": true,
+      "score": 100,
+      "expected_score": 100,
+      "answers": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "A",
+        "C",
+        "B",
+        "D",
+        "C",
+        "A"
+      ]
+    }
+  ],
+  "checks_passed": 14,
+  "checks_total": 14,
+  "question_matches": 80,
+  "question_total": 80,
+  "scope": "synthetic fixed-template samples only; not real-photo accuracy"
+}
